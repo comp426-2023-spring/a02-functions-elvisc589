@@ -10,19 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a02-functions-elvisc589.git"
   },
-  "author": "",
+  "author": "Elvis Chiqui",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a02-functions-elvisc589/issues"
   },
   "homepage": "https://github.com/comp426-2023-spring/a02-functions-elvisc589#readme",
   "dependencies": {
+    "jq": "^1.7.2",
     "minimist": "^1.2.8",
     "moment-timezone": "^0.5.43",
     "node-fetch": "^3.3.1"
   },
-  "bin":{
-    "galosh.js": "./clis.js"
+  "bin": {
+    "galosh.js": "./cli.js"
   },
   "type": "module"
 }
